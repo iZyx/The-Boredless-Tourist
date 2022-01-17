@@ -24,6 +24,7 @@ def add_attraction(destination, attraction):
     return
   attractions_for_destination = attractions[destination_index]
   
+
 test_destination_index = get_traveler_location(test_traveler)
 add_attraction("Los Angeles, USA", ['Venice Beach', ['beach']])
 add_attraction("Paris, France", ["the Louvre", ["art", "museum"]])
